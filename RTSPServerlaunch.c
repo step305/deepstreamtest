@@ -19,7 +19,7 @@
 
 
 /*To compile use:
-gcc -o test-launch RTSPServerlaunch.c  `pkg-config --cflags --libs gstreamer-rtsp-server-1.0`
+gcc -o RTSPServerlaunch RTSPServerlaunch.c  `pkg-config --cflags --libs gstreamer-rtsp-server-1.0`
 */
 
 #include <gst/gst.h>
